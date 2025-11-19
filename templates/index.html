@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bioregistry Curation Automation</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Bioregistry Curation Automation</h1>
+
+      <div id="input-area">
+        <label for="pmid">Enter PMID (numbers only)</label>
+        <input id="pmid" type="text" inputmode="numeric" pattern="\d*" placeholder="e.g., 12345678" />
+        <div class="buttons">
+          <button id="extract">Extract Metadata</button>
+          <button id="start-over" class="secondary">Start Over</button>
+        </div>
+        <div id="status" class="status"></div>
+      </div>
+
+      <div id="output-area" class="hidden">
+        <div class="output-controls">
+          <button id="copy">Copy to Clipboard</button>
+          <span id="copy-msg" class="muted"></span>
+        </div>
+        <textarea id="json-output" spellcheck="false"></textarea>
+      </div>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
