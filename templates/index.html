@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bioregistry Curation Automation</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <!-- Contributor Info Modal -->
+    <div id="contributor-modal" class="modal">
+      <div class="modal-content">
+        <h2>Contributor Information</h2>
+        <p class="modal-description">Please enter your contributor information. This will be automatically included in all generated JSON files.</p>
+        <form id="contributor-form">
+          <div class="form-group">
+            <label for="contributor-name">Name <span class="required">*</span></label>
+            <input id="contributor-name" type="text" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="contributor-email">Email</label>
+            <input id="contributor-email" type="email" placeholder="your.email@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="contributor-orcid">ORCID</label>
+            <input id="contributor-orcid" type="text" placeholder="0000-0000-0000-0000" />
+            <span class="hint">Format: 0000-0000-0000-0000</span>
+          </div>
+          <div class="form-group">
+            <label for="contributor-github">GitHub Username</label>
+            <input id="contributor-github" type="text" placeholder="your-github-username" />
+          </div>
+          <div class="form-actions">
+            <button type="submit" id="save-contributor">Save & Continue</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <main id="main-app" class="hidden">
+      <h1>Bioregistry Curation Automation</h1>
+
+      <!-- Contributor info banner -->
+      <div id="contributor-banner">
+        <span id="contributor-display"></span>
+        <button id="edit-contributor" class="link-btn">Edit</button>
+      </div>
+
+      <div id="input-area">
+        <label for="pmid">Enter PMID (numbers only)</label>
+        <input id="pmid" type="text" inputmode="numeric" pattern="\d*" placeholder="e.g., 12345678" />
+        <div class="buttons">
+          <button id="extract">Extract Metadata</button>
+          <button id="start-over" class="secondary">Start Over</button>
+        </div>
+        <div id="status" class="status"></div>
+      </div>
+
+      <div id="output-area" class="hidden">
+        <div class="output-controls">
+          <button id="copy">Copy to Clipboard</button>
+          <span id="copy-msg" class="muted"></span>
+        </div>
+        <textarea id="json-output" spellcheck="false"></textarea>
+      </div>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
