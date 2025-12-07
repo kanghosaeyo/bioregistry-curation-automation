@@ -26,7 +26,7 @@ classifiers = [
 dependencies = [
     "flask",
     "indra",
-    "browser-use==0.10.1",
+    "browser-use",
 ]
 
 [project.optional-dependencies]
