@@ -301,6 +301,7 @@ def format_bioregistry_json(pubmed, db, contributor=None):
             "contributor": contributor_info,
             "description": description,
             "example": example,
+            "github_request_issue": "",
             "homepage": homepage,
             "keywords": keywords,
             "name": name,
