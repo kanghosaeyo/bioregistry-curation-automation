@@ -58,13 +58,7 @@ git clone https://github.com/kanghosaeyo/bioregistry-curation-automation.git
 cd bioregistry-curation-automation
 ```
 
-2. Create and activate a virtual environment:
-```bash
-python3 -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
-
-3. Install the package in editable mode:
+2. Install the package in editable mode:
 ```bash
 pip install -e .
 ```
