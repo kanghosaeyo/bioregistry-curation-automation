@@ -1,0 +1,35 @@
+{
+  "scancerrna": {
+    "contact": {
+      "email": "zty2009@hit.edu.cn",
+      "name": "Tianyi Zhao",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Non-coding RNA biomarkers for human cancers, including lncRNAs, miRNAs, piRNAs, snoRNAs, and circRNAs, curated from published literature to facilitate diagnostic, clinical, and therapeutic applications.",
+    "example": "hsa-miR-199a-3p",
+    "github_request_issue": "",
+    "homepage": "http://www.scancerrna.com/BioMarker/",
+    "keywords": [
+      "non-coding rna",
+      "cancer",
+      "biomarkers"
+    ],
+    "name": "SCancerRNA: Expression in cell level and interaction resource of non-coding RNA biomarkers for cancers",
+    "pattern": "^hsa-miR-[0-9a-z-]+$",
+    "publications": [
+      {
+        "doi": "10.1093/gpbjnl/qzae023",
+        "pubmed": "39341795",
+        "title": "SCancerRNA: Expression at the Single-cell Level and Interaction Resource of Non-coding RNA Biomarkers for Cancers.",
+        "year": 2024
+      }
+    ],
+    "uri_format": "http://www.scancerrna.com/BioMarker/toDetail?rnaName=$1"
+  }
+}

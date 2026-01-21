@@ -1,0 +1,35 @@
+{
+  "rdbsb": {
+    "contact": {
+      "email": "gqzhang@sinh.ac.cn",
+      "name": "Guoqing Zhang",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Identifiers represent curated catalytic bioparts with detailed qualitative and quantitative catalytic information for pathway design in synthetic biology.",
+    "example": "OENC205",
+    "github_request_issue": "",
+    "homepage": "https://www.biosino.org/rdbsb/",
+    "keywords": [
+      "synthetic biology",
+      "catalytic bioparts",
+      "metabolic pathways"
+    ],
+    "name": "Registry and Database of Bioparts for Synthetic Biology",
+    "pattern": "^OENC\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae844",
+        "pubmed": "39360609",
+        "title": "RDBSB: a database for catalytic bioparts with experimental evidence.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://www.biosino.org/rdbsb/bioparts_detail/$1"
+  }
+}

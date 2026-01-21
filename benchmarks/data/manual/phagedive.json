@@ -1,0 +1,48 @@
+{
+      "phagedive": {
+    "contact": {
+      "email": "johannes.wittmann@dsmz.de",
+      "name": "Johannes Wittmann",
+      "orcid": "0000-0002-7275-9927"
+    },
+    "contributor": {
+      "email": "m.naguthana@hotmail.com",
+      "github": "nagutm",
+      "name": "Mufaddal Naguthanawala",
+      "orcid": "0009-0009-5240-7463"
+    },
+    "description": "PhageDive is a database for bacteriophages and archaeal viruses. It provides information regarding taxonomy, host strain, phage morphology, life cycle, origin and genomic data.",
+    "example": "3",
+    "github_request_issue": 1454,
+    "homepage": "https://phagedive.dsmz.de",
+    "mappings": {
+      "re3data": "r3d100014540"
+    },
+    "name": "PhageDive",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae1220",
+        "pmc": "PMC11701545",
+        "pubmed": "39373542",
+        "title": "PhageDive: the comprehensive strain database of prokaryotic viral diversity",
+        "year": 2024
+      }
+    ],
+    "re3data": {
+      "description": "PhageDive is a specific database for bacteriophages and archaeal viruses. Built on the BacDive model, it gathers and links all the experimental data and metadata of the viruses present in different culture collections. Its implementation aims to facilitate access to all viruses information for the scientific community. The database covers taxonomy, host strain, phage morphology, life cycle, origin and genomic data.",
+      "doi": "10.17616/R31NJNPO",
+      "homepage": "https://phagedive.dsmz.de/",
+      "license": "CC",
+      "name": "PhageDive",
+      "prefix": "r3d100014540"
+    },
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://phagedive.dsmz.de/strain/$1"
+  }
+}

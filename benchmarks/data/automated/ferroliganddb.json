@@ -1,0 +1,35 @@
+{
+  "ferroliganddb": {
+    "contact": {
+      "email": "guqiong@mail.sysu.edu.cn",
+      "name": "Dr. Qiong Gu",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Identifiers represent ferroptosis regulators (inducers and inhibitors) and provide insights into their structure-activity and structure-disease relationships.",
+    "example": "RCDDd001",
+    "github_request_issue": "",
+    "homepage": "http://ferr.gulab.org.cn/",
+    "keywords": [
+      "ferroptosis",
+      "regulators",
+      "GPX4"
+    ],
+    "name": "Ferroptosis Regulators Database",
+    "pattern": "^RCDDd\\d{3,4}$",
+    "publications": [
+      {
+        "doi": "10.1021/acs.jcim.4c00525",
+        "pubmed": "38885636",
+        "title": "FerroLigandDB: A Ferroptosis Ligand Database of Structure-Activity Relations.",
+        "year": 2024
+      }
+    ],
+    "uri_format": "https://ferr.gulab.org.cn/browse/$1"
+  }
+}

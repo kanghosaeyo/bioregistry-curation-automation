@@ -1,0 +1,35 @@
+{
+  "molgluedb": {
+    "contact": {
+      "email": "qc@ouc.edu.cn",
+      "name": "Prof. Chong Qin",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Identifiers for molecular glue compounds used for tracking and integrating information about chemical degraders in drug discovery.",
+    "example": "1",
+    "github_request_issue": "",
+    "homepage": "https://www.molgluedb.com",
+    "keywords": [
+      "molecular glue",
+      "chemical biology",
+      "drug discovery"
+    ],
+    "name": "Molecular Glue Database",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkaf811",
+        "pubmed": "40842115",
+        "title": "MolGlueDB: an online database of molecular glues.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://www.molgluedb.com/browseDB/$1"
+  }
+}

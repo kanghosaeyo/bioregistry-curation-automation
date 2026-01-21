@@ -1,0 +1,43 @@
+{
+    "kdbirp": {
+    "contact": {
+      "email": "zengxian@fudan.edu.cn",
+      "name": "Xian Zeng",
+      "orcid": "0000-0002-1397-554X"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers represent RNA-protein interaction entries with quantitative kinetic data in the Kinetic Data of Biomolecular Interactions for RNA-Protein database (KDBI-RP), which is an open-access database cataloging association rates, dissociation rates, and equilibrium dissociation constants for RNA-protein interactions.",
+    "domain": "relationship",
+    "example": "183",
+    "github_request_issue": 1717,
+    "homepage": "http://www.kdbirp.aiddlab.com",
+    "keywords": [
+      "binding affinity",
+      "kinetics",
+      "rna-protein interactions"
+    ],
+    "logo": "http://www.kdbirp.aiddlab.com/static/images/logo2.png",
+    "name": "Kinetic Data of RNA-Protein Interactions Database",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1016/j.jmb.2025.169357",
+        "pubmed": "40716733",
+        "title": "KDBI-RP: Kinetic Data of RNA-Protein Interactions Database",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "cthoyt@gmail.com",
+      "github": "cthoyt",
+      "name": "Charles Tapley Hoyt",
+      "orcid": "0000-0003-4423-4370"
+    },
+    "uri_format": "http://www.kdbirp.aiddlab.com/detail/$1"
+  }
+}

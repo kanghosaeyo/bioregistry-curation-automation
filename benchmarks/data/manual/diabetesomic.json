@@ -1,0 +1,42 @@
+{
+    "diabetesomic": {
+    "contact": {
+      "email": "liujianghua@usc.edu.cn",
+      "name": "Jiang-hua Liu",
+      "orcid": "0000-0003-0344-3168"
+    },
+    "contributor": {
+      "email": "maaya.m466@gmail.com",
+      "github": "maayamanoj466",
+      "name": "Maaya Manoj",
+      "orcid": "0009-0000-6974-6386"
+    },
+    "description": "DiabetesOmic is a multi-omics database designed to collect and analyze transcriptional regulatory information across five high-throughput sequencing modalities, including ChIP-seq, RNA-seq, ATAC-seq, scATAC-seq, and scRNA-seq. This database's identifiers each represent a single sample. It contains clinical complication annotations including diabetic nephropathy, retinopathy, and atherosclerosis to enhance translational relevance. It enables the identification of disease-associated regulatory elements, epigenetic modifications, and cell type-specific molecular signatures, providing valuable insights into the molecular mechanisms of diabetes and its complications.",
+    "example": "sample_002",
+    "github_request_issue": 1628,
+    "homepage": "https://bio.liclab.net/diabetesOmicdb/",
+    "keywords": [
+      "diabetes",
+      "omics",
+      "sample"
+    ],
+    "name": "DiabetesOmic",
+    "pattern": "^sample_\\d{3}$",
+    "publications": [
+      {
+        "doi": "10.1016/j.csbj.2025.05.008",
+        "pmc": "PMC12158550",
+        "pubmed": "40502930",
+        "title": "DiabetesOmic: A comprehensive multi-omics diabetes database",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://bio.liclab.net/diabetesOmicdb/RNA-seq?sampleId=$1"
+  }
+}

@@ -1,0 +1,22 @@
+,contact,example,homepage,keywords,name,pattern,publications,uri_format,average,
+molgluedb,1,1,1,1,1,1,1,1,1,
+absd,1,1,1,1,1,1,1,1,1,
+pmads,0.5,1,1,0.83,1,1,1,1,0.91625,
+psskb,1,1,1,1,1,1,1,1,1,
+funggrowth,1,0,1,0.83,1,0,1,0,0.60375,website has no browse option?
+kdbirp,1,1,1,1,1,1,1,1,1,
+diabetesomic,1,1,1,1,1,1,1,1,1,
+fanta,1,0,0,1,0,0,1,0,0.375,completely different database
+ferroliganddb,1,0,1,0.5,0,0,1,1,0.5625,
+scancerrna,1,0,1,1,0.5,0,1,0,0.5625,
+oprlm,1,0,1,1,1,0,1,0,0.625,website timeout
+rdbsb,1,1,1,1,1,1,1,1,1,
+mibig,1,1,1,1,1,1,1,0,0.875,
+phagedive,1,1,1,0.83,0.5,1,1,1,0.91625,
+pahg,1,1,1,1,1,1,1,1,1,
+streptomedb,1,1,1,1,1,1,1,1,1,
+aacdb,1,1,1,0.66,1,1,1,1,0.9575,
+ribocirc,1,1,1,1,0.5,0,1,1,0.8125,
+istransbase,1,1,1,1,1,1,1,1,1,
+tsrnadisease,1,1,1,0.66,1,1,1,1,0.9575,
+average,0.9736842105,0.7368421053,0.9473684211,0.9110526316,0.8157894737,0.6842105263,1,0.7368421053,0.8507236842,

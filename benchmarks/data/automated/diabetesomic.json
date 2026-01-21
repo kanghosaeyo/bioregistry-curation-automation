@@ -1,0 +1,35 @@
+{
+  "diabetesomic": {
+    "contact": {
+      "email": "chao_li@usc.edu.cn",
+      "name": "Chao Li",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Sample identifiers representing transcriptional regulatory information derived from multiple sequencing technologies in humans and mice for diabetes research.",
+    "example": "sample_001",
+    "github_request_issue": "",
+    "homepage": "https://bio.liclab.net/diabetesOmicdb/",
+    "keywords": [
+      "diabetes",
+      "single cell",
+      "multi-omics"
+    ],
+    "name": "DiabetesOmic",
+    "pattern": "^sample_\\d{3}$",
+    "publications": [
+      {
+        "doi": "10.1016/j.csbj.2025.05.008",
+        "pubmed": "40502930",
+        "title": "DiabetesOmic: A comprehensive multi-omics diabetes database.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://bio.liclab.net/diabetesOmicdb/RNA-seq?sampleId=$1"
+  }
+}

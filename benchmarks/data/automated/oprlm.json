@@ -1,0 +1,35 @@
+{
+  "oprlm": {
+    "contact": {
+      "email": "wonpil@lehigh.edu",
+      "name": "Wonpil Im",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "The OPRLM database includes all unique experimental structures of transmembrane (TM) proteins and a large number of peripheral proteins and membrane-active peptides oriented in lipid membranes by PPM 3.0.",
+    "example": "7l1e",
+    "github_request_issue": "",
+    "homepage": "https://oprlm.org/",
+    "keywords": [
+      "molecular dynamics",
+      "lipid bilayers",
+      "membrane proteins"
+    ],
+    "name": "Orientations of Proteins in Realistic Lipid Membranes",
+    "pattern": "^[A-Za-z0-9]{4}$",
+    "publications": [
+      {
+        "doi": "10.1016/j.jmb.2025.168966",
+        "pubmed": "40133776",
+        "title": "OPRLM: A Web Tool and a Database for Positioning and Simulations of Proteins in Realistic Lipid Membranes.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://oprlm.org/proteins?search=$1"
+  }
+}

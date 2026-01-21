@@ -1,0 +1,36 @@
+{
+    "scancerrna": {
+    "contact": {
+      "email": "zty2009@hit.edu.cn",
+      "name": "Tianyi Zhao",
+      "orcid": "0000-0001-7352-2959"
+    },
+    "contributor": {
+      "email": "m.naguthana@hotmail.com",
+      "github": "nagutm",
+      "name": "Mufaddal Naguthanawala",
+      "orcid": "0009-0009-5240-7463"
+    },
+    "description": "SCancerRNA provides identifiers for non-coding RNA biomarkers, including long ncRNA, microRNA, PIWI-interacting RNA, small nucleolar RNA, and circular RNA, with data on their differential expression at the cellular level in cancer.",
+    "example": "9530",
+    "github_request_issue": 1215,
+    "homepage": "http://www.scancerrna.com/",
+    "name": "SCancerRNA",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/gpbjnl/qzae023",
+        "pubmed": "39341795",
+        "title": "SCancerRNA: Expression at the Single-cell Level and Interaction Resource of Non-coding RNA Biomarkers for Cancers",
+        "year": 2024
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "http://www.scancerrna.com/toDetail?id=$1"
+  }
+}

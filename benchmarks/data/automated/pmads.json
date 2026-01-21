@@ -1,0 +1,35 @@
+{
+  "pmads": {
+    "contact": {
+      "email": "wanglab.tj@outlook.com",
+      "name": "EMPTY",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Identifiers represent PTM-drug-disease ternary associations, which detail PTM-centered drug responses in a disease context.",
+    "example": "acc0001",
+    "github_request_issue": "",
+    "homepage": "https://pmads-db.org",
+    "keywords": [
+      "post-translational modification",
+      "drug associations",
+      "cancer"
+    ],
+    "name": "Protein Modification and Drug Sensitivity",
+    "pattern": "^acc\\d{4}$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkaf1033",
+        "pubmed": "41099621",
+        "title": "PMADS: an integrated database of curated and proteomics-inferred associations between protein post-translational modifications and drug sensitivity.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://pmads-db.org/result/?id=$1"
+  }
+}

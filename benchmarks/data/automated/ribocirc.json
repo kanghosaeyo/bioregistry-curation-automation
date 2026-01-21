@@ -1,0 +1,35 @@
+{
+  "ribocirc": {
+    "contact": {
+      "email": "bioccwhw@126.com",
+      "name": "Hongwei Wang",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "A repository of computationally predicted ribosome-associated circRNAs and literature-reported translatable circRNAs across multiple species.",
+    "example": "hsa_ribocircSCD_003",
+    "github_request_issue": "",
+    "homepage": "http://www.ribocirc.com",
+    "keywords": [
+      "circrna",
+      "translation",
+      "peptides"
+    ],
+    "name": "A comprehensive database of translatable circRNAs",
+    "pattern": "^[a-z]{3}_ribocirc[A-Z0-9]+_\\d{1,4}$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkaf1022",
+        "pubmed": "41118507",
+        "title": "riboCIRC v2.0: an expanded resource for translatable CircRNAs.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "http://www.ribocirc.com/rna_detail.php?circ_id=$1&dependent=Condition-independent"
+  }
+}

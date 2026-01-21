@@ -1,0 +1,35 @@
+{
+      "fanta": {
+    "contact": {
+      "email": "takeya.kasukawa@riken.jp",
+      "name": "Takeya Kasukawa"
+    },
+    "contributor": {
+      "email": "m.naguthana@hotmail.com",
+      "github": "nagutm",
+      "name": "Mufaddal Naguthanawala",
+      "orcid": "0009-0009-5240-7463"
+    },
+    "description": "Functional annotations of genomes for studying gene regulation, with a primary focus on cis-regulatory elements (CREs) such as promoters and enhancers.",
+    "example": "FCHS_301358",
+    "github_request_issue": 1328,
+    "homepage": "https://fanta.bio",
+    "name": "Functional Genome Annotations with Transcriptional Activities",
+    "pattern": "^FC(HS|MM)_\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae1047",
+        "pubmed": "39592010",
+        "title": "Update of the FANTOM web resource: enhancement for studying noncoding genomes",
+        "year": 2024
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://fanta.bio/cre/$1"
+  }
+}

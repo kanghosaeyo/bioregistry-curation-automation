@@ -1,0 +1,35 @@
+{
+  "fanta": {
+    "contact": {
+      "email": "marchion@jhu.edu",
+      "name": "Luigi Marchionni",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "FANTOM is an international research consortium providing comprehensive functional annotations for mammalian genomes, including long non-coding RNAs (lncRNAs) and transcribed cis-regulatory elements (cREs).",
+    "example": "CATG00000000004",
+    "github_request_issue": "",
+    "homepage": "https://fantom.gsc.riken.jp/",
+    "keywords": [
+      "long non-coding rnas",
+      "cis-regulatory elements",
+      "mammalian genome"
+    ],
+    "name": "Functional ANnoTation Of the Mammalian genome",
+    "pattern": "^CATG\\d{11}$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae1047",
+        "pubmed": "39592010",
+        "title": "Update of the FANTOM web resource: enhancement for studying noncoding genomes.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "EMPTY"
+  }
+}

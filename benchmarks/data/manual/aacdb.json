@@ -1,0 +1,44 @@
+{
+    "aacdb": {
+    "contact": {
+      "email": "hj@uestc.edu.cn",
+      "name": "Jian Huang",
+      "orcid": "0000-0003-3282-8892"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers represent antibody-antigen complexes in the Antigen-Antibody Complex Database (AACDB), which provides comprehensive structural and functional annotations including paratope and epitope information, antibody developability data, and antigen-drug target relationships to support immunoinformatics research and therapeutic antibody development.",
+    "example": "61",
+    "github_request_issue": 1727,
+    "homepage": "https://i.uestc.edu.cn/AACDB",
+    "keywords": [
+      "antibody",
+      "antigen",
+      "molecular biophysics",
+      "structural biology"
+    ],
+    "logo": "https://i.uestc.edu.cn/AACDB/images/logo.png",
+    "name": "Antibody-Antigen Complex Database",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.7554/elife.104934",
+        "pmc": "PMC12097784",
+        "pubmed": "40402563",
+        "title": "A comprehensive antigen-antibody complex database unlocking insights into interaction interface",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://i.uestc.edu.cn/AACDB/details.php?id=$1"
+  }
+}

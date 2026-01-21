@@ -1,0 +1,35 @@
+{
+  "phagedive": {
+    "contact": {
+      "email": "lorenz.reimer@dsmz.de",
+      "name": "Lorenz C Reimer",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Identifiers represent bacteriophages and archaeal viruses, gathering and linking their experimental data and metadata from culture collections.",
+    "example": "1005",
+    "github_request_issue": "",
+    "homepage": "https://phagedive.dsmz.de",
+    "keywords": [
+      "bacteriophages",
+      "archaeal viruses",
+      "prokaryotic"
+    ],
+    "name": "PhageDive: the comprehensive strain database of prokaryotic viral diversity",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae878",
+        "pubmed": "39373542",
+        "title": "PhageDive: the comprehensive strain database of prokaryotic viral diversity.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://phagedive.dsmz.de/strain/$1"
+  }
+}

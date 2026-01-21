@@ -1,0 +1,40 @@
+{
+      "mibig": {
+    "contact": {
+      "email": "kblin@biosustain.dtu.dk",
+      "github": "kblin",
+      "name": "Kai Blin",
+      "orcid": "0000-0003-3764-6051"
+    },
+    "contributor": {
+      "email": "zdoucmm@gmail.com",
+      "github": "mmzdouc",
+      "name": "Mitja M. Zdouc",
+      "orcid": "0000-0001-6534-6609"
+    },
+    "description": "MIBiG (Minimum Information about a Biosynthetic Gene Cluster) is a data repository and associated data standard designed to describe biosynthetic gene clusters involved in the production of specialized metabolites. It also stores data on measured biological activities and links to other resources such as NCBI, NPAtlas, and ChEBI. MIBiG is used as a reference database, knowledgebase, and training dataset for machine learning.",
+    "example": "BGC0000001",
+    "github_request_issue": 1407,
+    "homepage": "https://mibig.secondarymetabolites.org",
+    "license": "CC-BY-4.0",
+    "name": "Minimum Information about a Biosynthetic Gene Cluster data repository",
+    "pattern": "^BGC\\d{7}$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae1115",
+        "pmc": "PMC11701617",
+        "pubmed": "39657789",
+        "title": "MIBiG 4.0: advancing biosynthetic gene cluster curation through global collaboration",
+        "year": 2024
+      }
+    ],
+    "repository": "https://github.com/mibig-secmet/mibig-json",
+    "reviewer": {
+      "email": "cthoyt@gmail.com",
+      "github": "cthoyt",
+      "name": "Charles Tapley Hoyt",
+      "orcid": "0000-0003-4423-4370"
+    },
+    "uri_format": "https://mibig.secondarymetabolites.org/go/$1"
+  }
+}

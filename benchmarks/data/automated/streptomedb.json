@@ -1,0 +1,35 @@
+{
+  "streptomedb": {
+    "contact": {
+      "email": "stefan.guenther@pharmazie.uni-freiburg.de",
+      "name": "Stefan Günther",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Identifiers represent natural products and drugs derived from *Streptomyces* species for drug discovery and chemical diversity exploitation.",
+    "example": "3848",
+    "github_request_issue": "",
+    "homepage": "https://www.pharmbioinf.uni-freiburg.de/streptomedb",
+    "keywords": [
+      "natural products",
+      "streptomyces",
+      "drug discovery"
+    ],
+    "name": "StreptomeDB",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae1030",
+        "pubmed": "39498494",
+        "title": "StreptomeDB 4.0: a comprehensive database of streptomycetes natural products enriched with protein interactions and interactive spectral visualization.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://streptomedb.vm.uni-freiburg.de/streptomedb/get_drugcard/$1/"
+  }
+}

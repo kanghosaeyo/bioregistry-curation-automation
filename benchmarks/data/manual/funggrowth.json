@@ -1,0 +1,44 @@
+{
+    "funggrowth": {
+    "contact": {
+      "email": "v.robert@wi.knaw.nl",
+      "name": "Vincent Robert",
+      "orcid": "0000-0002-9370-4677"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers represent experimental growth profiles documenting fungal species' ability to utilize specific carbon sources (plant biomass components, polysaccharides, and monosaccharides) in the FUNG-GROWTH database, which provides phenotypic data to support functional genome annotation and comparative analysis of carbohydrate metabolism across fungal species.",
+    "example": "86",
+    "github_request_issue": 1720,
+    "homepage": "https://www.fung-growth.org",
+    "keywords": [
+      "fungi",
+      "growth profiles",
+      "monosaccharides",
+      "plant biomass",
+      "polysaccharides"
+    ],
+    "name": "Fungal Growth Database",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1128/mra.00378-25",
+        "pmc": "PMC12424322",
+        "pubmed": "40767478",
+        "title": "The FUNG-GROWTH database: linking fungal phenotype to genome",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://www.fung-growth.org/page/Display%20page%20FG/$1"
+  }
+}
