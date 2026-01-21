@@ -301,7 +301,7 @@ textarea#json-output {
 
 .pmid-rankings-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: 1fr;
   gap: var(--spacing-md);
   max-height: 300px;
   overflow-y: auto;

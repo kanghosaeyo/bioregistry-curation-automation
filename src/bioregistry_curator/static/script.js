@@ -350,7 +350,7 @@ function displayPmidRankings(pmidData) {
   });
 
   const count = pmidData.length;
-  pmidRankingsStatus.textContent = `${count} suggested PMID${count !== 1 ? 's' : ''} (updates hourly)`;
+  pmidRankingsStatus.textContent = `${count} suggested PMID${count !== 1 ? 's' : ''}`;
   pmidRankingsStatus.className = 'rankings-status success';
 }
 
