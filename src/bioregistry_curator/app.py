@@ -241,8 +241,6 @@ No version patterns (\.\d or _v\d)
 
 5. URI_FORMAT - URL to individual entries
 
-5. URI_FORMAT - URL to individual entries
-
 ABSOLUTE RULE: Only extract patterns from OBSERVED clickable links.
 NEVER construct or guess URL patterns.
 
