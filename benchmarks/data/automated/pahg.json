@@ -1,0 +1,35 @@
+{
+  "pahg": {
+    "contact": {
+      "email": "pahg@qau.edu.pk",
+      "name": "Dr. Amir Ali Abbasi",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "The PAHG database offers insights into the evolutionary history of human multigene families and paralogous regions.",
+    "example": "81",
+    "github_request_issue": "",
+    "homepage": "https://www.pahgncb.com/genomedb/public/",
+    "keywords": [
+      "phylogenomic analysis",
+      "human multigene families",
+      "paralogous regions"
+    ],
+    "name": "Phylogenomic Analysis of the Human Genome",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1186/s12863-025-01361-y",
+        "pubmed": "41087926",
+        "title": "PAHG: the database of human multi-gene families.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://www.pahgncb.com/genomedb/public/genefamily/$1"
+  }
+}

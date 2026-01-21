@@ -1,0 +1,35 @@
+{
+      "istransbase": {
+    "contact": {
+      "email": "oriental-cds@163.com",
+      "name": "Dongsheng Cao"
+    },
+    "contributor": {
+      "email": "shah.tanay2@northeastern.edu",
+      "github": "tanayshah2",
+      "name": "Tanay Shah",
+      "orcid": "0009-0001-1912-5132"
+    },
+    "description": "ISTransbase is a highly reliable and accessible database that focuses on inhibitors and substrates of drug transporters, offering a wealth of vital information encompassing experimental methods, transport parameters, and references.",
+    "example": "IST028",
+    "github_request_issue": 1145,
+    "homepage": "https://istransbase.scbdd.com/",
+    "name": "ISTransbase",
+    "publications": [
+      {
+        "doi": "10.1093/database/baae053",
+        "pmc": "PMC11214160",
+        "pubmed": "38943608",
+        "title": "ISTransbase: an online database for inhibitor and substrate of drug transporters",
+        "year": 2024
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://istransbase.scbdd.com/database/trans/$1"
+  }
+}

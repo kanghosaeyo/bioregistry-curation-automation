@@ -1,0 +1,35 @@
+{
+  "funggrowth": {
+    "contact": {
+      "email": "r.devries@wi.knaw.nl",
+      "name": "Ronald P. de Vries",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Fungal growth profiles on various carbon sources used to correlate phenotype to genome content.",
+    "example": "EMPTY",
+    "github_request_issue": "",
+    "homepage": "https://www.fung-growth.org/",
+    "keywords": [
+      "fungal growth profiles",
+      "carbon sources",
+      "genome analysis"
+    ],
+    "name": "Fungal Growth Database",
+    "pattern": "EMPTY",
+    "publications": [
+      {
+        "doi": "10.1128/mra.00378-25",
+        "pubmed": "40767478",
+        "title": "The FUNG-GROWTH database: linking fungal phenotype to genome.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "EMPTY"
+  }
+}

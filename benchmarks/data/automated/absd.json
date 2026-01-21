@@ -1,0 +1,35 @@
+{
+  "absd": {
+    "contact": {
+      "email": "nicolas.maillet@pasteur.fr",
+      "name": "Nicolas Maillet",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Antibody sequence entries from multiple species consolidated into a unified, clean dataset for standardized analysis.",
+    "example": "190fec449e478dd8fbdddab73a3f95015426129bf0f8a365f42ca5f1b6762ace",
+    "github_request_issue": "",
+    "homepage": "https://absd.pasteur.cloud/",
+    "keywords": [
+      "antibody",
+      "protein sequence",
+      "immunology"
+    ],
+    "name": "AntiBody Sequence Database",
+    "pattern": "^[0-9a-fA-F]{64}$",
+    "publications": [
+      {
+        "doi": "10.1093/nargab/lqae171",
+        "pubmed": "39703430",
+        "title": "AntiBody Sequence Database.",
+        "year": 2024
+      }
+    ],
+    "uri_format": "https://absd.pasteur.cloud/antibody/$1"
+  }
+}

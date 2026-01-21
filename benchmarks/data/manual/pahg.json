@@ -1,0 +1,45 @@
+{
+    "pahg": {
+    "contact": {
+      "email": "baoym@big.ac.cn",
+      "name": "Yiming Bao",
+      "orcid": "0000-0002-9922-9723"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers correspond to curated multigene families in the human genome from the Phylogenomic Analysis of Human Genome (PAHG) database, focusing on evolutionary relationships and gene duplication events across vertebrates.",
+    "example": "92",
+    "github_request_issue": 1796,
+    "homepage": "https://www.pahgncb.com",
+    "keywords": [
+      "gene duplication",
+      "human genome",
+      "multigene families",
+      "paralogons",
+      "phylogenomics",
+      "vertebrate evolution"
+    ],
+    "name": "Phylogenomic Analysis of Human Genome",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1186/s12863-025-01361-y",
+        "pmc": "PMC12522930",
+        "pubmed": "41087926",
+        "title": "PAHG: the database of human multi-gene families",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "cthoyt@gmail.com",
+      "github": "cthoyt",
+      "name": "Charles Tapley Hoyt",
+      "orcid": "0000-0003-4423-4370"
+    },
+    "uri_format": "https://www.pahgncb.com/genomedb/public/genefamily/$1"
+  }
+}

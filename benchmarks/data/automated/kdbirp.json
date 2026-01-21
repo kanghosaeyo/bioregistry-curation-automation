@@ -1,0 +1,35 @@
+{
+  "kdbirp": {
+    "contact": {
+      "email": "zengxian@fudan.edu.cn",
+      "name": "Prof. Zeng Xian",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "The database provides curated kinetic data, including kon, koff, and Kd values, for various protein-RNA interactions.",
+    "example": "187",
+    "github_request_issue": "",
+    "homepage": "http://www.kdbirp.aiddlab.com/",
+    "keywords": [
+      "protein-rna interaction",
+      "kinetics",
+      "dissociation constant"
+    ],
+    "name": "Kinetic Data of Protein-RNA Interaction",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1016/j.jmb.2025.169357",
+        "pubmed": "40716733",
+        "title": "KDBI-RP: Kinetic Data of RNA-Protein Interactions Database.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "http://www.kdbirp.aiddlab.com/detail/$1/"
+  }
+}

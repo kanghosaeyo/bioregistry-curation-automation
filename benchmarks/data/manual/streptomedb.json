@@ -1,0 +1,57 @@
+{
+      "streptomedb": {
+    "contact": {
+      "email": "stefan.guenther@pharmazie.uni-freiburg.de",
+      "name": "Stefan Günther",
+      "orcid": "0000-0003-3744-189X"
+    },
+    "contributor": {
+      "email": "m.naguthana@hotmail.com",
+      "github": "nagutm",
+      "name": "Mufaddal Naguthanawala",
+      "orcid": "0009-0009-5240-7463"
+    },
+    "description": "Identifers for natural products isolated or mutasynthesized by bacteria of the genus Streptomyces.",
+    "example": "15753",
+    "github_request_issue": 1287,
+    "homepage": "http://streptomedb.vm.uni-freiburg.de:8000/streptomedb",
+    "name": "StreptomeDB",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae1030",
+        "pubmed": "39498494",
+        "title": "StreptomeDB 4.0: a comprehensive database of streptomycetes natural products enriched with protein interactions and interactive spectral visualization",
+        "year": 2024
+      },
+      {
+        "doi": "10.1093/nar/gkaa868",
+        "pmc": "PMC7779017",
+        "pubmed": "33051671",
+        "title": "StreptomeDB 3.0: an updated compendium of streptomycetes natural products",
+        "year": 2020
+      },
+      {
+        "doi": "10.1093/nar/gkv1319",
+        "pmc": "PMC4702922",
+        "pubmed": "26615197",
+        "title": "StreptomeDB 2.0--an extended resource of natural products produced by streptomycetes",
+        "year": 2015
+      },
+      {
+        "doi": "10.1093/nar/gks1253",
+        "pmc": "PMC3531085",
+        "pubmed": "23193280",
+        "title": "StreptomeDB: a resource for natural compounds isolated from Streptomyces species",
+        "year": 2012
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "http://streptomedb.vm.uni-freiburg.de:8000/streptomedb/get_drugcard/$1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "ferroliganddb": {
+    "contact": {
+      "email": "guqiong@mail.sysu.edu.cn",
+      "name": "Qiong Gu"
+    },
+    "contributor": {
+      "email": "shah.tanay2@northeastern.edu",
+      "github": "tanayshah2",
+      "name": "Tanay Shah",
+      "orcid": "0009-0001-1912-5132"
+    },
+    "description": "FerroLigandDB is a meticulously curated, high-quality database of ferroptosis regulators, including inducers and inhibitors.",
+    "example": "486",
+    "github_request_issue": 1145,
+    "homepage": "https://ferr.gulab.org.cn/",
+    "name": "FerroLigandDB",
+    "publications": [
+      {
+        "doi": "10.1021/acs.jcim.4c00525",
+        "pubmed": "38885636",
+        "title": "FerroLigandDB: A Ferroptosis Ligand Database of Structure-Activity Relations",
+        "year": 2024
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://ferr.gulab.org.cn/browse/$1"
+  }
+}

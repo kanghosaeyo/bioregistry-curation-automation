@@ -1,0 +1,35 @@
+{
+  "aacdb": {
+    "contact": {
+      "email": "hj@uestc.edu.cn",
+      "name": "Jian Huang",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Experimentally measured structure data for antibody-antigen complexes, facilitating the identification of paratopes and epitopes.",
+    "example": "1",
+    "github_request_issue": "",
+    "homepage": "http://i.uestc.edu.cn/AACDB/",
+    "keywords": [
+      "antibody",
+      "antigen",
+      "structure"
+    ],
+    "name": "Antibody-Antigen Complex Database",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.7554/eLife.104934",
+        "pubmed": "40402563",
+        "title": "A comprehensive antigen-antibody complex database unlocking insights into interaction interface.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://i.uestc.edu.cn/AACDB/details.php?id=$1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "psskb": {
+    "contact": {
+      "email": "kaysheva1@gmail.com",
+      "name": "Anna L. Kaysheva",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Entities are protein structural motifs (supersecondary structures) providing a knowledge base for protein analysis, structure mapping, and molecular dynamics calculations.",
+    "example": "3CIA_D308_D388",
+    "github_request_issue": "",
+    "homepage": "https://psskb.org/",
+    "keywords": [
+      "structural biology",
+      "protein structure",
+      "molecular dynamics"
+    ],
+    "name": "Protein Supersecondary Structure Knowledge Base",
+    "pattern": "^[A-Z0-9]{4}_[A-Z0-9]\\d+_[A-Z0-9]\\d+$",
+    "publications": [
+      {
+        "doi": "10.1002/jcc.70046",
+        "pubmed": "39876062",
+        "title": "PSSKB: A Web Application to Study Protein Structures.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://psskb.org/motif/card/$1"
+  }
+}

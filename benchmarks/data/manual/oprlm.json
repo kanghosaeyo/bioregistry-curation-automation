@@ -1,0 +1,36 @@
+{
+  "oprlm": {
+    "contact": {
+      "email": "wonpil@lehigh.edu",
+      "name": "Wonpil Im",
+      "orcid": "0000-0001-5642-6041"
+    },
+    "contributor": {
+      "email": "palayoor.n@northeastern.edu",
+      "github": "nalikapalayoor",
+      "name": "Nalika Palayoor",
+      "orcid": "0009-0008-8406-631X"
+    },
+    "description": "Orientations of Proteins in Realistic Lipid Membranes (OPRLM) is a database for visualizing proteins in realistic lipid membranes. It includes the classification of proteins into types, superfamilies, and families, and also provides information on intracellular localizations of the proteins. Identifiers represent proteins.",
+    "example": "6782",
+    "github_request_issue": 1558,
+    "homepage": "https://oprlm.org",
+    "name": "Orientation of Proteins in Realistic Lipid Membranes",
+    "pattern": "^\\d*$",
+    "publications": [
+      {
+        "doi": "10.1016/j.jmb.2025.168966",
+        "pubmed": "40133776",
+        "title": "OPRLM: A Web Tool and a Database for Positioning and Simulations of Proteins in Realistic Lipid Membranes",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://oprlm.org/proteins/$1"
+  }
+}

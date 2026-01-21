@@ -1,0 +1,36 @@
+{
+      "psskb": {
+    "contact": {
+      "email": "kaysheva1@gmail.com",
+      "name": "Anna L. Kaysheva",
+      "orcid": "0000-0003-4472-2016"
+    },
+    "contributor": {
+      "email": "palayoor.n@northeastern.edu",
+      "github": "nalikapalayoor",
+      "name": "Nalika Palayoor",
+      "orcid": "0009-0008-8406-631X"
+    },
+    "description": "PSSKB allows researchers to model post translational modifications and amino acid substitutions in proteins, providing 3D structural representations. Identifiers represent protein motifs on which PSSKB provides data.",
+    "example": "2VM6_A55_A135",
+    "github_request_issue": 1398,
+    "homepage": "https://psskb.org/",
+    "name": "Protein Structure and Stability Knowledge Base",
+    "pattern": "^[A-Za-z0-9_]+$",
+    "publications": [
+      {
+        "doi": "10.1002/jcc.70046",
+        "pubmed": "39876062",
+        "title": "PSSKB: A Web Application to Study Protein Structures",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://psskb.org/motif/card/$1"
+  }
+}

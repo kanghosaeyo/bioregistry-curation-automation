@@ -1,0 +1,41 @@
+ {
+  "tsrnadisease": {
+    "contact": {
+      "email": "zhenyang@fudan.edu.cn",
+      "name": "Zhen Yang",
+      "orcid": "0000-0002-6782-0316"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers correspond to curated associations between diseases and tRNA-derived small RNAs (tsRNAs) in the tsRNADisease database.",
+    "example": "TRD00001",
+    "github_request_issue": 1700,
+    "homepage": "http://compgenelab.info/tsRNADisease",
+    "keywords": [
+      "cancer",
+      "disease",
+      "tsrna"
+    ],
+    "name": "tsRNADisease",
+    "pattern": "^TRD\\d{5}$",
+    "publications": [
+      {
+        "doi": "10.1016/j.jgg.2025.08.001",
+        "pubmed": "40812678",
+        "title": "tsRNADisease: a manually curated database of tsRNAs associated with human disease",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "http://118.178.132.53/tsRNADisease/detail.php?entry_ID=$1"
+  }
+}

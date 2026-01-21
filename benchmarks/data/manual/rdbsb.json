@@ -1,0 +1,37 @@
+{
+     "rdbsb": {
+    "contact": {
+      "email": "gqzhang@sinh.ac.cn",
+      "name": "Guoqing Zhang",
+      "orcid": "0000-0001-8827-7546"
+    },
+    "contributor": {
+      "email": "m.naguthana@hotmail.com",
+      "github": "nagutm",
+      "name": "Mufaddal Naguthanawala",
+      "orcid": "0009-0009-5240-7463"
+    },
+    "description": "This database provides identifiers for catalytic bioparts which are fundamental to the design, construction, and optimization of biological systems for specific metabolic pathways. It provides basic information, function information (including catalytic functions, qualitative and quantitative parameters, and biopart expression), and sequence information (nucleotide sequence and amino acid sequence)",
+    "example": "OENC205",
+    "github_request_issue": 1473,
+    "homepage": "https://www.biosino.org/rdbsb",
+    "name": "Registry and database of bioparts for synthetic biology",
+    "pattern": "^OENC\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae844",
+        "pmc": "PMC11701600",
+        "pubmed": "39360609",
+        "title": "RDBSB: a database for catalytic bioparts with experimental evidence",
+        "year": 2024
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://www.biosino.org/rdbsb/bioparts_detail/$1"
+  }
+}

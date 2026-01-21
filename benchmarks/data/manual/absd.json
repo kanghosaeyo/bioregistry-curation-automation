@@ -1,0 +1,37 @@
+{
+     "absd": {
+    "contact": {
+      "email": "nicolas.maillet@pasteur.fr",
+      "name": "Nicolas Maillet",
+      "orcid": "0000-0003-1611-5243"
+    },
+    "contributor": {
+      "email": "palayoor.n@northeastern.edu",
+      "github": "nalikapalayoor",
+      "name": "Nalika Palayoor",
+      "orcid": "0009-0008-8406-631X"
+    },
+    "description": "The AntiBody Sequence Database is a public dataset for antibody sequence data. It provides unique identifiers for antibody sequences, including both immunoglobulin and single-chain variable fragment sequences. These are are critical for immunological studies, and  allows users to search and retrieve antibody sequences based on sequence similarity and specificity, and other biological properties.",
+    "example": "81d0ea69a9ab134f6ba68314e982171a367d3ab739c85c5ba49701dd02170ed3",
+    "github_request_issue": 1362,
+    "homepage": "https://absd.pasteur.cloud",
+    "name": "AntiBody Sequence Database",
+    "pattern": "^[a-f0-9]{64}$",
+    "publications": [
+      {
+        "doi": "10.1093/nargab/lqae171",
+        "pmc": "PMC11655285",
+        "pubmed": "39703430",
+        "title": "AntiBody Sequence Database",
+        "year": 2024
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://absd.pasteur.cloud/antibody/$1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "molgluedb": {
+    "contact": {
+      "email": "qc@ouc.edu.cn",
+      "name": "Chong Qin",
+      "orcid": "0000-0001-8108-1698"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers correspond to molecular glue compounds in the MolGlueDB which is a free and open-access online database dedicated to the collection and integration of molecular glue compound information.",
+    "example": "1",
+    "github_request_issue": 1775,
+    "homepage": "https://www.molgluedb.com",
+    "keywords": [
+      "compound",
+      "degraders",
+      "proteolysis"
+    ],
+    "name": "MolGlueDB",
+    "pattern": "^\\d+$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkaf811",
+        "pubmed": "40842115",
+        "title": "MolGlueDB: an online database of molecular glues",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://www.molgluedb.com/browseDB/$1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "mibig": {
+    "contact": {
+      "email": "mibig@secondarymetabolites.org",
+      "name": "Kai Blin",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Biosynthetic gene clusters producing specialized metabolites for comparative genomics",
+    "example": "BGC0000001",
+    "github_request_issue": "",
+    "homepage": "https://mibig.secondarymetabolites.org/",
+    "keywords": [
+      "biosynthetic gene clusters",
+      "secondary metabolites",
+      "genomics"
+    ],
+    "name": "Minimum Information about a Biosynthetic Gene Cluster",
+    "pattern": "^BGC\\d{7}$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkae1115",
+        "pubmed": "39657789",
+        "title": "MIBiG 4.0: advancing biosynthetic gene cluster curation through global collaboration.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "https://mibig.secondarymetabolites.org/bgc/$1"
+  }
+}

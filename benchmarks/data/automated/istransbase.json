@@ -1,0 +1,35 @@
+{
+  "istransbase": {
+    "contact": {
+      "email": "oriental-cds@163.com",
+      "name": "Dongsheng Cao",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "Entries represent experimental records of drug transporter inhibitors and substrates, detailing experimental methods and transport parameters.",
+    "example": "ISTE000000",
+    "github_request_issue": "",
+    "homepage": "https://istransbase.scbdd.com/",
+    "keywords": [
+      "drug transporters",
+      "substrates",
+      "inhibitors"
+    ],
+    "name": "Inhibitor and substrate of transporters Database",
+    "pattern": "^ISTE\\d{6}$",
+    "publications": [
+      {
+        "doi": "10.1093/database/baae053",
+        "pubmed": "38943608",
+        "title": "ISTransbase: an online database for inhibitor and substrate of drug transporters.",
+        "year": 2024
+      }
+    ],
+    "uri_format": "https://istransbase.scbdd.com/database/detail/$1"
+  }
+}

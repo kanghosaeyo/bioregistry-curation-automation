@@ -1,0 +1,49 @@
+{
+      "ribocirc": {
+    "contact": {
+      "email": "xiezhi@gmail.com",
+      "name": "Zhi Xie",
+      "orcid": "0000-0002-7736-5548"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers represent computationally predicted and experimentally verified translatable circRNAs across six model species (human, mouse, rat, worm, fly, and zebrafish), including ribosome-associated circRNAs and their encoded peptides with systematic annotation of sequence, structure, and function.",
+    "example": "hsa_ribocircSCD_001",
+    "example_extras": [
+        "mmu_ribocircCoil_001",
+        "rno_ribocircVps13b_003",
+        "dme_ribocirccdi_001",
+        "cel_ribocircF54A3.3_001",
+        "dre_ribocircim:7151449_001"
+      ],
+    "github_request_issue": 1798,
+    "homepage": "http://www.ribocirc.com",
+    "keywords": [
+      "circrna",
+      "peptides",
+      "ribosome profiling",
+      "translation"
+    ],
+    "name": "riboCIRC",
+    "pattern": "^(hsa|mmu|rno|cel|dme|dre)_ribocirc[A-Za-z0-9.:]+_\\d{3}$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkaf1022",
+        "pubmed": "41118507",
+        "title": "riboCIRC v2.0: an expanded resource for translatable CircRNAs",
+        "year": 2025
+      },
+      {
+        "doi": "10.1186/s13059-021-02300-7",
+        "pubmed": "33685493",
+        "title": "riboCIRC: a comprehensive database of translatable circRNAs",
+        "year": 2021
+      }
+    ],
+    "uri_format": "http://www.ribocirc.com/rna_detail.php?circ_id=$1"
+  }
+}

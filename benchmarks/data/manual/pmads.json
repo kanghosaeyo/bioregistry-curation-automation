@@ -1,0 +1,41 @@
+{
+      "pmads": {
+    "contact": {
+      "email": "wanglab.tj@outlook.com",
+      "name": "Haiyun Wang",
+      "orcid": "0000-0001-8364-8328"
+    },
+    "contributor": {
+      "email": "ji.kang@northeastern.edu",
+      "github": "kanghosaeyo",
+      "name": "Kangho Ji",
+      "orcid": "0009-0009-3402-8013"
+    },
+    "description": "Identifiers correspond to curated and proteomics-inferred associations between protein post-translational modifications (PTM) and drug sensitivity.",
+    "example": "acc0079",
+    "github_request_issue": 1799,
+    "homepage": "https://pmads-db.org",
+    "keywords": [
+      "drug sensitivity",
+      "modification",
+      "proteomics"
+    ],
+    "name": "PMADS",
+    "pattern": "^acc\\d{4}$",
+    "publications": [
+      {
+        "doi": "10.1093/nar/gkaf1033",
+        "pubmed": "41099621",
+        "title": "PMADS: an integrated database of curated and proteomics-inferred associations between protein post-translational modifications and drug sensitivity.",
+        "year": 2025
+      }
+    ],
+    "reviewer": {
+      "email": "b.gyori@northeastern.edu",
+      "github": "bgyori",
+      "name": "Benjamin M. Gyori",
+      "orcid": "0000-0001-9439-5346"
+    },
+    "uri_format": "https://pmads-db.org/result/?id=$1"
+  }
+}

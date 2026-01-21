@@ -1,0 +1,35 @@
+{
+  "tsrnadisease": {
+    "contact": {
+      "email": "lvkun315@126.com",
+      "name": "Kun Lv",
+      "orcid": ""
+    },
+    "contributor": {
+      "email": "",
+      "github": "",
+      "name": "Kangho Ji",
+      "orcid": ""
+    },
+    "description": "The database deposits experimentally validated and predicted associations between tRNA-derived small RNAs (tsRNA) and human diseases.",
+    "example": "TRD00001",
+    "github_request_issue": "",
+    "homepage": "http://112.124.111.198/tsRNADisease/",
+    "keywords": [
+      "tsrna",
+      "disease",
+      "cancer"
+    ],
+    "name": "The tsRNA and Disease Database",
+    "pattern": "^TRD\\d{5}$",
+    "publications": [
+      {
+        "doi": "10.1016/j.jgg.2025.08.001",
+        "pubmed": "40812678",
+        "title": "tsRNADisease: a manually curated database of tsRNAs associated with human disease.",
+        "year": 2025
+      }
+    ],
+    "uri_format": "http://112.124.111.198/tsRNADisease/detail.php?entry_ID=$1"
+  }
+}
