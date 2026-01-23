@@ -45,6 +45,10 @@ Provides an editable interface where curators can:
 - Add missing metadata
 - Validate before final submission
 
+### Tutorial: 
+
+https://github.com/user-attachments/assets/17b83ab9-07cd-4ca8-a623-aef5842a4938
+
 ## Requirements
 
 - **Python 3.9+**
