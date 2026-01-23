@@ -113,7 +113,7 @@ This is a personal project for automating Bioregistry curation workflows. If you
 
 ## Author
 
-Oscar Kangho Ji - Bioregistry Curator, Gyori Lab for Computational Biomedicine, Northeastern University
+Oscar Kangho Ji, Gyori Lab for Computational Biomedicine, Northeastern University
 
 ## License
 
